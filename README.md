@@ -1,1 +1,4 @@
 # Get-Info-TKQC
+
+curl -i -X GET \
+ "https://graph.facebook.com/v19.0/me?fields=id%2Cname%2Cadaccounts.limit(1000000)%7Baccount_id%2Caccount_status%2Cadtrust_dsl%2Camount_spent%2Cbalance%2Ccreated_time%2Cbusiness_country_code%2Ccurrency%2Cfunding_source_details%2Ctimezone_name%2Ctimezone_offset_hours_utc%2Cname%2Cadspaymentcycle%7Bthreshold_amount%7D%2Cnext_bill_date%2Cuser_role%2Cuserpermissions.limit(100)%7D&access_token=EAABsbCS1iHgBO9NyoLVqP8JZCo8PUtb7C8QllRWVZBlDZAHvZA3tdbZCNKVjoJlHF02JopbWmE1RqPS1QwOZAjI3XxQox0DZBvx4RlI1vZAIvYBZAcA2z4qqh03aZA307shPZCU4oGc05WJU5QDLwsRsVRY8SJT8y5u6WyXV7zEyQODSUTumFbKLX92elE2QZB4ZD"
